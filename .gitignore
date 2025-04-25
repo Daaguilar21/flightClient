@@ -1,0 +1,61 @@
+# === Python artifacts ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# === Virtual environments ===
+venv/
+env/
+ENV/
+.venv/
+
+# === VS Code ===
+.vscode/
+.history/
+*.code-workspace
+
+# === Operating system / temp ===
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# === Kafka/Logs/Debug ===
+*.pid
+*.log.*
+*.out
+*.kafka*
+*.zookeeper*
+
+# === Cassandra ===
+cassandra/data/
+cassandra/logs/
+cassandra-schema.cql~  # backup/temp variants
+
+# === Project-specific files ===
+*.sqlite3
+*.db
+*.sql
+*.csv
+*.json
+
+# === Python compiled ===
+*.so
+*.dll
+*.pyc
+
+# === PowerShell debug ===
+*.ps1~
+*.ps1.bak
+
+# === Docker volumes/config (optional) ===
+docker-compose.override.yml
+.env
